@@ -1,0 +1,710 @@
+
+
+
+@font-face {
+font-family:zahra;
+src:url(../fonts/zahra/ZahraInlineGrunge.ttf);
+}
+
+@font-face {
+font-family:VT;
+src: url(../fonts/vtks-sucess/VTKS.ttf);
+}
+
+@font-face {
+font-family:Linu;
+src:url(../fonts/Linu.otf);
+}
+@font-face {
+font-family:fb;
+src:url(../fonts/ufonts.com_agency-fb.ttf);
+}
+
+
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+
+  }
+  
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+
+ 
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Letras ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+h1
+{
+  font-size: 6rem; 
+  font-family: fb ;
+  color: red;
+  font-style: initial;
+  font-weight: bolder;
+  text-align: center;
+}
+
+
+ h2
+{
+  font-size: 3.5rem; 
+  font-family: fb ;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3
+{
+  font-size: 1.8rem; 
+  font-family: fb ;
+  font-style: italic;
+  text-align: center;
+}
+ h4
+{
+  font-size: 2rem; 
+  font-family: fb ;
+  font-style: italic;
+  text-align: center;
+}
+
+h5
+{
+  font-size: 1rem; 
+  font-family: sans-serif; ;
+  font-style: italic;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+a{text-decoration: none;}
+
+li
+{
+  list-style-type: none;
+  font-family: fb;
+  font-size: 1.5rem;
+}
+ .nav, .nav-item, .nav-link{
+  color: white;
+  : 
+ }
+
+.nav, .nav-item, .nav-link:hover{
+  color: yellow;
+ }
+.color
+{
+  
+  color: white;
+  
+ }
+
+
+ .color-b
+{
+  
+  color: red;
+ 
+ }
+
+
+.color-c
+{
+  
+  color: black;
+ 
+ }
+
+.color-we
+{
+  font-weight: bolder;
+}
+ 
+.tin {
+  text-shadow: 5px 5px 2px #000000;
+} 
+
+.tin1 {
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.tin2 {
+  text-shadow: 5px 5px 2px #FFFFFF;
+}
+
+.tin3 {
+  text-shadow: -2px 0 black, 0 2px red, 2px 0 red, 0 -2px red;
+}
+
+.tin4 {
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+}
+
+.tin5 {
+  text-shadow: -2px 0 white, 0 1px white, 2px 0 white, 0 -2px white;
+}
+
+p
+{
+text-align: center;
+font-size: 2rem;
+font-family: fb;
+
+}
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ decoracion +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.red{
+  
+  border: 1px  solid red;
+
+}
+
+.green{
+
+  border: 1px  solid green;
+
+}
+
+
+.reluce:hover{ 
+  box-shadow: 5px 5px 2px #000000;
+}
+
+.reluce:active
+ {
+ transform: scale(0.85,0.85); 
+ transition: transform 0.2s;
+}
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ fondos +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+.back0{
+  background-image: url(../img/me1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:;
+
+}
+
+.back1{
+  background-image: url(../img/get-under-the-gim1.png);
+  background-size:100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+  
+}
+
+.back2
+{
+  background-image: url(../img/peso-gimnasio.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+  
+}
+
+.back3
+{
+  background-image: url(../img/mujerpesas1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back4
+{
+  background-image: url(../img/organizado.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back5
+{
+  background-image: url(../img/Quemagrasas.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back6
+{
+  background-image: url(../img/polea2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back7
+{
+
+  background-image: url(../img/fibras-2.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+
+}
+
+.back8
+{
+background-image: url(../img/fuego-musc.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+
+}
+
+.back9
+{
+background-image: url(../img/elMito1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+
+
+}
+
+.back10
+{
+  background-image: url(../img/curlalterno1.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back11
+{
+ background-image: url(../img/piernas1.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment:;
+}
+
+.back12
+{
+ background-image: url(../img/picfill1.png);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-attachment:; 
+}
+
+
+.back13
+{
+  background-image: url(../img/get-under-the-bar.jpg);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-attachment:fixed; 
+}
+
+.back14
+{
+  background-image: url(../img/mujesentadillas1.jpg);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-attachment:; 
+}
+
+.back15
+{
+  background-image: url(../img/fuerza2.png);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-attachment:;
+   }
+
+.back16
+{
+  background-image: url(../img/wade-musculo-nba-ok1.jpg);
+  background-size: 100% 100% ;
+  background-repeat: no-repeat;
+  background-attachment:;
+   }
+
+ 
+.etiquetaLarge
+{
+  
+  
+  background-color:rgba(0, 0, 0, 0.8);
+}
+
+.etiqueta
+{
+  
+background-color:rgba(0, 0, 0, 0.8);
+background-size: 100% 100%;  
+}
+
+.etiqueta-black
+{
+  
+   background-color:rgba(0, 0, 0, 1.8); 
+}
+
+.etiqueta1
+{
+  
+   background-color:rgba(170,0,0,1);
+ 
+}
+
+
+.etiqueta2
+{
+  
+   background-color:rgba(195,0,0,0.8);
+ 
+}
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ BURBUJAS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators 
+  {
+
+    
+    height: 10rem;
+    width: 5rem;
+    outline: red;
+    background-color: rgba(170,0,0,1 );
+    background-size: 100%, 100%;
+    border: 3px  black;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 8rem;
+    bottom:8rem;
+}
+
+
+
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++     SALTO      +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+
+
+
+
+
+
+/*+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ MEDIAS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/      
+
+
+@media only screen and (max-width: 1850px)
+{
+
+
+
+h3
+{
+ font-size: 2.5rem; 
+}
+
+ 
+    
+}
+
+
+/***********************************************************************************************************************************************/
+
+
+
+@media only screen and (max-width: 1650px)
+{
+
+
+h3
+{
+ font-size: 2.5rem; 
+}
+ 
+    
+}
+
+/***********************************************************************************************************************************************/
+
+
+
+@media only screen and (max-width: 1480px)
+{
+
+
+
+
+h1
+{
+  font-size: 5rem;
+
+} 
+
+h2
+{
+  font-size: 3.5rem;
+} 
+
+h3
+{
+ font-size: 1.5rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}     
+
+.p-o{padding: 10%}
+
+}
+
+
+}
+
+
+/***********************************************************************************************************************************************/
+
+
+
+
+@media only screen and (max-width: 910px) 
+{
+
+
+
+
+h1
+{
+  font-size: 3rem;
+
+} 
+
+h2
+{
+  font-size: 2rem;
+} 
+
+h3
+{
+ font-size: 1rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}     
+
+
+.backOn{
+  
+  background-size: cover;
+  
+  
+}
+.p-o{padding: 10%}
+
+}
+
+}
+
+
+/***********************************************************************************************************************************************/
+
+
+@media only screen and (max-width: 767px) {
+
+
+
+
+h1
+{
+  font-size: 3rem;
+
+} 
+
+h2
+{
+  font-size: 1.5rem;
+} 
+
+h3
+{
+ font-size: 1.5rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}     
+
+..backOn{
+  
+  background-size: cover;
+  
+  
+}
+
+.p-o
+{
+  padding: 20%;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 575px)
+ {
+  
+
+
+ h1
+{
+  font-size: 3rem;
+
+} 
+
+h2
+{
+  font-size: 1.5rem;
+} 
+
+h3
+{
+ font-size: 1.2rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}         
+
+.backOn{
+  
+  background-size: cover;
+  
+  
+}
+
+
+
+
+/***********************************************************************************************************************************************/
+
+
+
+@media only screen and (max-width: 401px) 
+{
+  body
+  {
+    max-width: 39rem;
+  }
+ 
+h1
+{
+  font-size: 3rem;
+
+} 
+
+h2
+{
+  font-size: 1.3rem;
+} 
+
+h3
+{
+ font-size: 1rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}     
+
+
+.backOn{
+  
+  background-size: cover;
+  
+  
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 330px) 
+{
+  body
+  {
+    max-width: 31.9rem;
+  }
+ 
+h1
+{
+  font-size: 3rem;
+
+} 
+
+h2
+{
+  font-size: 1.3rem;
+} 
+
+h3
+{
+ font-size: 0.8rem; 
+}
+
+h4
+{
+  font-size: 1.6rem;
+}     
+
+
+.backOn{
+  
+  background-size: cover;
+  
+  
+}
+
+
+}
+
+
